@@ -1,17 +1,20 @@
-require('settings')
-require('plugins')
-require('mappings')
+-- Standard
+require('Standard.Settings')
+require('Standard.Plugins')
+require('Standard.Mappings')
 
--- Plugins
-require('toggleTerm-config')
-require('neoTree-config')
-require('lualine-config')
-require('telescope-config')
-require('dashboard-config')
 
-require('treeSitter-config')
-require('cmp-config.cmp-setup')
-require('cmp-config.tabnine-config')
-require('lspkind-config')
+-- Additionals
+require('Additionals.Term')
+require('Additionals.Tree')
+require('Additionals.Dashboard')
+require('Additionals.Telescope')
 
-vim.cmd "color gruvbox"
+-- Deco
+require('Deco.Lualine')
+
+require('AutoComplete.cmp')
+require('AutoComplete.lsp')
+
+vim.diagnostic.disable()
+vim.cmd "color dracula"

@@ -20,13 +20,14 @@ set.smartcase = true
 set.splitbelow = true
 set.splitright = true
 set.wrap = false
-set.scrolloff = 10
+set.scrolloff = 20
 set.fileencoding = 'utf-8'
 set.termguicolors = true
 
 set.mouse=a
 
 set.hidden = true
+
 
 -- Colorscheme
 -- vim.cmd "colorscheme nightfox"
