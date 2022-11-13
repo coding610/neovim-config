@@ -15,6 +15,8 @@ return require'packer'.startup(function()
     use 'xiyaowong/nvim-transparent'
     use 'kyazdani42/nvim-tree.lua'
     use 'kyazdani42/nvim-web-devicons'
+    use 'navarasu/onedark.nvim'
+    use 'duane9/nvim-rg'
     
 
     ----------------------Autocomplete----------------------
@@ -29,4 +31,5 @@ return require'packer'.startup(function()
     use 'hrsh7th/cmp-cmdline'
     use 'hrsh7th/cmp-buffer'
     use 'hrsh7th/nvim-cmp'
+    use 'nvim-treesitter/nvim-treesitter'
 end)

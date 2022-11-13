@@ -13,9 +13,9 @@ cmp.setup {
     ['<C-Space>'] = cmp.mapping.complete(),
     ['<CR>'] = cmp.mapping.confirm {
       behavior = cmp.ConfirmBehavior.Replace,
-      select = true,
+      select = false,
     },
-    ['<Tab>'] = cmp.mapping(function(fallback)
+    ['<Tab-t-t-t-t-t-t-t-t-t-t>'] = cmp.mapping(function(fallback)
       if cmp.visible() then
         cmp.select_next_item()
       elseif luasnip.expand_or_jumpable() then
@@ -35,8 +35,8 @@ cmp.setup {
     end, { 'i', 's' }),
   }),
   sources = {
-    { name = 'nvim_lsp' },
-    { name = 'luasnip' },
+    { name = 'nvim_lsp', max_item_count=5 },
+    { name = 'luasnip', max_item_count=5 },
     { name = 'buffer' },
     { name = 'cmdline' },
     { name = 'path' },

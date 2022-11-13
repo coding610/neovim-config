@@ -149,6 +149,11 @@ _G.packer_plugins = {
     path = "/Users/Siggbo/.local/share/nvim/site/pack/packer/start/nvim-notify",
     url = "https://github.com/rcarriga/nvim-notify"
   },
+  ["nvim-rg"] = {
+    loaded = true,
+    path = "/Users/Siggbo/.local/share/nvim/site/pack/packer/start/nvim-rg",
+    url = "https://github.com/duane9/nvim-rg"
+  },
   ["nvim-transparent"] = {
     loaded = true,
     path = "/Users/Siggbo/.local/share/nvim/site/pack/packer/start/nvim-transparent",
@@ -159,10 +164,20 @@ _G.packer_plugins = {
     path = "/Users/Siggbo/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
     url = "https://github.com/kyazdani42/nvim-tree.lua"
   },
+  ["nvim-treesitter"] = {
+    loaded = true,
+    path = "/Users/Siggbo/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
   ["nvim-web-devicons"] = {
     loaded = true,
     path = "/Users/Siggbo/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/kyazdani42/nvim-web-devicons"
+  },
+  ["onedark.nvim"] = {
+    loaded = true,
+    path = "/Users/Siggbo/.local/share/nvim/site/pack/packer/start/onedark.nvim",
+    url = "https://github.com/navarasu/onedark.nvim"
   },
   ["packer.nvim"] = {
     loaded = true,

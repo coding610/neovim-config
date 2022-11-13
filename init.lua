@@ -9,13 +9,14 @@ require('Additionals.Tree')
 require('Additionals.Dashboard')
 require('Additionals.Telescope')
 require('Additionals.DevIcons')
-require('Additionals.Transparent')
+require('Additionals.Telescope.filetype')
 
 -- Deco
 require('Deco.Lualine')
 
 require('AutoComplete.cmp')
 require('AutoComplete.lsp')
+require('AutoComplete.treesitter')
 
 vim.diagnostic.disable()
-vim.cmd "color nordfox"
+vim.cmd "color gruvbox"
