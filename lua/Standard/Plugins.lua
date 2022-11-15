@@ -17,6 +17,8 @@ return require'packer'.startup(function()
     use 'kyazdani42/nvim-web-devicons'
     use 'navarasu/onedark.nvim'
     use 'duane9/nvim-rg'
+    use 'iamcco/markdown-preview.nvim'
+    use 'iamcco/markdown-preview.nvim'
     
 
     ----------------------Autocomplete----------------------
